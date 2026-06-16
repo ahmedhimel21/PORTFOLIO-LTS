@@ -1,11 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
 import {
-  About,
+  About, // done
   Contact,
-  Experience,
+  // Experience, //done
   Feedbacks,
-  Hero,
-  Navbar,
+  Hero, // done
+  Navbar, // done
   Tech,
   Works,
   StarsCanvas,
@@ -22,7 +22,7 @@ const App = () => {
           </div>
         </div>
         <About></About>
-        <Experience></Experience>
+        {/* <Experience></Experience> */}
         <Tech></Tech>
         <Works></Works>
         <Feedbacks></Feedbacks>
