@@ -24,16 +24,16 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        "service_66m0htq",
-        "template_f6tnnzs",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Sahabuddin Ahmed",
           from_email: form.email,
-          to_email: "ahmedhimel000@gmail.com",
+          to_email: import.meta.env.VITE_RECEIVER_EMAIL,
           message: form.message,
         },
-        "LRiNs0IK-BvaGheuh",
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       )
       .then(
         () => {

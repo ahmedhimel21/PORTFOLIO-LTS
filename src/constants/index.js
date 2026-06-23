@@ -1,24 +1,26 @@
 import {
-  mobile,
+  frontend,
   backend,
-  creator,
-  web,
+  fullstack,
+  ai,
+  qwikit,
+  cpp,
+  python,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
+  nextjs,
   tailwind,
   nodejs,
+  expressjs,
+  graphql,
+  django,
   mongodb,
-  git,
-  figma,
+  postgres,
   docker,
   carrent,
   jobit,
   tripguide,
-  qwikit,
 } from "../assets";
 export const navLinks = [
   {
@@ -37,16 +39,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "AI powered Developer",
+    icon: ai,
   },
   {
-    title: "React Developer",
-    icon: mobile,
+    title: "Frontend Developer",
+    icon: frontend,
   },
   {
-    title: "Next.js Developer",
-    icon: creator,
+    title: "Fullstack Developer",
+    icon: fullstack,
   },
   {
     title: "Backend Developer",
@@ -56,12 +58,12 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "C++",
+    icon: cpp,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Python",
+    icon: python,
   },
   {
     name: "JavaScript",
@@ -76,8 +78,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
@@ -88,16 +90,24 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Express.js",
+    icon: expressjs,
+  },
+  {
+    name: "GraphQL",
+    icon: graphql,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
+    name: "PostgreSQL",
+    icon: postgres,
   },
   {
     name: "docker",

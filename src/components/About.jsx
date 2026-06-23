@@ -41,13 +41,17 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[38px]"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[38px] text-justify"
       >
-        I'm a skilled web developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Next.js, and
-        Node.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I’m a skilled software developer with strong foundations in
+        problem-solving, algorithms, and data structures, built through
+        competitive programming using C and C++. I work with JavaScript,
+        TypeScript, Python, and modern frameworks like React, Next.js, Node.js,
+        and Django to build scalable and efficient applications. With a growing
+        focus on AI-powered systems, I specialize in developing intelligent,
+        user-centric digital solutions that combine performance, functionality,
+        and real-world impact. I’m a fast learner who enjoys solving complex
+        problems and turning ideas into powerful products.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
